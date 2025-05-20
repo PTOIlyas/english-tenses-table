@@ -6,8 +6,7 @@
 }
 
 thead>tr>th{
-    padding: 15px 0px;
-    max-width: 230px;
+    padding: 15px 1px;
 }
 
 #table {
@@ -38,8 +37,12 @@ thead>tr>th{
     height: 25px;
 }
 
-.tense-type {
-  width: 30px;
+.tense-type-long {
+  height: 47px;
+}
+
+.tense-type-short {
+  height: 30px;
 }
 
 .tense {
@@ -48,19 +51,25 @@ thead>tr>th{
 
 .col-1 {
   background-color: #f0e68c;
+  width: 100px;
 }
 .col-2 {
   background-color: #f0e68c;
+  width: 30px;
 }
 .col-3 {
   background-color: #7b68ee;
+  width: 230px;
 }
 .col-4 {
   background-color: #fa8072;
+  width: 230px;
 }
 .col-5 {
   background-color: #98fb98;
+  width: 230px;
 }
 .col-6 {
   background-color: #ee82ee;
+  width: 230px;
 }
